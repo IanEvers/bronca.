@@ -30,14 +30,14 @@ header {
 
 nav {
   padding: 1rem;
-  display: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 @media (min-width: 640px) {
   nav {
-    display: flex;
     justify-content: flex-end;
-    gap: 2rem;
     margin-right: 2rem;
 
   }

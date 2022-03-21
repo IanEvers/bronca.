@@ -29,13 +29,25 @@
         </p>
       </section>
 
+      <hr>
+
       <section id="proyectos">
         <h1 class="titulo"> Proyectos </h1>
       </section>
 
+      <hr>
+
       <section id="fotos">
         <h1 class="titulo"> Fotos </h1>
+
+        <!-- <img src="./assets/fotos/IMG_5943.JPG"> -->
+
+        <div class="gridFotos">
+          <img v-for="foto in fotos" :src="foto.url" class="fotoSeccion" :class="foto.nombre">
+        </div>
       </section>
+
+      <hr>
 
       <section id="contacto">
         <h1 class="titulo"> Contacto </h1>
@@ -52,8 +64,34 @@
 <script setup>
 import Header from "./components/Header.vue";
 
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+const fotos = 
+[
+  {
+    nombre: '1',
+    url: './src/assets/fotos/foto1.jpg',
+  },
+  {
+    nombre: '2',
+    url: './src/assets/fotos/foto2.png',
+  },
+  {
+    nombre: '3',
+    url: './src/assets/fotos/foto3.jpg',
+  },
+  {
+    nombre: '4',
+    url: './src/assets/fotos/foto5.jpg',
+  },
+  {
+    nombre: '5',
+    url: './src/assets/fotos/foto4.jpg',
+  },
+  {
+    nombre: '6',
+    url: './src/assets/fotos/foto6.jpg',
+  },
+]
+
 </script>
 
 <style>
@@ -92,7 +130,7 @@ body {
   bottom: 20px;      
   margin-right:30px; 
   left: 85vw;
-  margin-top: calc(100vh + 100px);
+  margin-top: calc(100vh + 500px);
   
   /* visual styling */
   text-decoration: none;
@@ -105,17 +143,21 @@ body {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 70vh;
   padding: 1rem;
   max-width: 1024px;
   margin: auto;
+}
+
+hr {
+  max-width: 80vw;
 }
 
 .titulo {
   text-align: center;
 }
 
-.imagenCata {  
+.imagenCata {
   margin: 1rem;
   max-width: 100vw;
 }
@@ -138,13 +180,20 @@ h2 {
   padding: 0.3rem;
 }
 
+
+
+.fotoSeccion {
+  max-width: 100%;
+  margin: auto;
+}
+
 @media (min-width: 640px) {
   .nombreYFoto {
     display: flex;
     justify-content: space-between;
   }
 
-  .imagenCata {  
+  .imagenCata {
     max-width: 256px;
     margin: 0.5rem;
   }
@@ -155,4 +204,18 @@ h2 {
 
 }
 
+@media (min-width: 768px) {
+  .gridFotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .fotoSeccion {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+
+}
 </style>
