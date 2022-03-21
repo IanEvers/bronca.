@@ -64,11 +64,13 @@
 <script setup>
 import Header from "./components/Header.vue";
 
+import img1 from './assets/fotos/foto1.jpg'
+
 const fotos = 
 [
   {
     nombre: '1',
-    url: './src/assets/fotos/foto1.jpg',
+    url: img1,
   },
   {
     nombre: '2',
