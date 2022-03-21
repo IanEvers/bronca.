@@ -65,32 +65,37 @@
 import Header from "./components/Header.vue";
 
 import img1 from './assets/fotos/foto1.jpg'
+import img2 from './assets/fotos/foto2.png'
+import img3 from './assets/fotos/foto3.jpg'
+import img4 from './assets/fotos/foto4.jpg'
+import img5 from './assets/fotos/foto5.jpg'
+import img6 from './assets/fotos/foto6.jpg'
 
 const fotos = 
 [
   {
-    nombre: '1',
+    nombre: 'foto1',
     url: img1,
   },
   {
-    nombre: '2',
-    url: './src/assets/fotos/foto2.png',
+    nombre: 'foto2',
+    url: img2,
   },
   {
-    nombre: '3',
-    url: './src/assets/fotos/foto3.jpg',
+    nombre: 'foto3',
+    url: img3,
   },
   {
-    nombre: '4',
-    url: './src/assets/fotos/foto5.jpg',
+    nombre: 'foto4',
+    url: img4,
   },
   {
-    nombre: '5',
-    url: './src/assets/fotos/foto4.jpg',
+    nombre: 'foto5',
+    url: img5,
   },
   {
-    nombre: '6',
-    url: './src/assets/fotos/foto6.jpg',
+    nombre: 'foto6',
+    url: img6,
   },
 ]
 
@@ -182,8 +187,6 @@ h2 {
   padding: 0.3rem;
 }
 
-
-
 .fotoSeccion {
   max-width: 100%;
   margin: auto;
@@ -210,6 +213,7 @@ h2 {
   .gridFotos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
   }
 
   .fotoSeccion {
@@ -217,6 +221,34 @@ h2 {
     max-height: 100%;
     width: auto;
     height: auto;
+  }
+
+  .foto1 {
+    grid-column: span 2;
+  }
+  
+  .foto2 {
+    grid-column: span 1;
+  }
+  
+  .foto3 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .foto4 {
+    grid-row: 1 / 2;
+    grid-column: 3;
+  }
+
+  .foto5 {
+    /* grid-row: 2 / 3;  */
+  }
+
+  .foto6 {
+    grid-row: 2;
+
+    grid-column: 3;
   }
 
 }
