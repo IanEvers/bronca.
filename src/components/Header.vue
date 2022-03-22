@@ -25,7 +25,7 @@ a {
 }
 
 header {
-  border-bottom: #120a1f solid 5px;
+  border-bottom: #120a1f solid 3px;
 }
 
 nav {

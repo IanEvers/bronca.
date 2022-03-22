@@ -33,14 +33,17 @@
 
       <section id="proyectos">
         <h1 class="titulo"> Proyectos </h1>
+
+        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe src="https://player.vimeo.com/video/690584333?h=4fb3c3b042&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+
+        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe src="https://player.vimeo.com/video/516059566?h=a431f82e3c&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+      
       </section>
 
       <hr>
 
       <section id="fotos">
         <h1 class="titulo"> Fotos </h1>
-
-        <!-- <img src="./assets/fotos/IMG_5943.JPG"> -->
 
         <div class="gridFotos">
           <img v-for="foto in fotos" :src="foto.url" class="fotoSeccion" :class="foto.nombre">
@@ -49,13 +52,13 @@
 
       <hr>
 
-      <section id="contacto">
-        <h1 class="titulo"> Contacto </h1>
-      </section>
+      <SeccionContacto />
 
     </div>
 
-    <a href="#home" class="backTop"> Inicio </a>
+    <Footer></Footer>
+
+    <!-- <a href="#home" class="backTop"> Inicio </a> -->
 
   </div>
 </template>
@@ -63,6 +66,7 @@
 
 <script setup>
 import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 
 import img1 from './assets/fotos/foto1.jpg'
 import img2 from './assets/fotos/foto2.png'
@@ -70,6 +74,7 @@ import img3 from './assets/fotos/foto3.jpg'
 import img4 from './assets/fotos/foto4.jpg'
 import img5 from './assets/fotos/foto5.jpg'
 import img6 from './assets/fotos/foto6.jpg'
+import SeccionContacto from './components/seccionContacto.vue'
 
 const fotos = 
 [
@@ -132,14 +137,14 @@ body {
   justify-content: center;
 }
 
-.backTop {
+/* .backTop {
   position: sticky;
   bottom: 20px;      
   margin-right:30px; 
   left: 85vw;
-  margin-top: calc(100vh + 500px);
+  margin-top: calc(100vh + 700px);
   
-  /* visual styling */
+  
   text-decoration: none;
   padding: 15px;
   font-family: sans-serif;
@@ -147,7 +152,7 @@ body {
   background: #000;
   border-radius: 100px;
   white-space: nowrap;
-}
+} */
 
 section {
   min-height: 70vh;
@@ -187,9 +192,23 @@ h2 {
   padding: 0.3rem;
 }
 
+#fotos {
+  margin-top: 2rem;
+  padding: 0;
+}
+
 .fotoSeccion {
-  max-width: 100%;
+  max-width: 100vw;
   margin: auto;
+}
+
+.gridFotos {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.videoSeccion {
+  margin: 3rem auto;
 }
 
 @media (min-width: 640px) {
@@ -232,8 +251,9 @@ h2 {
   }
   
   .foto3 {
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 2;
+    
   }
 
   .foto4 {
@@ -242,13 +262,13 @@ h2 {
   }
 
   .foto5 {
-    /* grid-row: 2 / 3;  */
+    grid-column: span 3; 
   }
 
   .foto6 {
     grid-row: 2;
 
-    grid-column: 3;
+    grid-column: 1;
   }
 
 }
