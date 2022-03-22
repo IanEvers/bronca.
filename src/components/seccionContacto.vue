@@ -66,7 +66,6 @@ form {
 
 .imagenContacto {
   max-width: 20vw;
-  max-height: 20vw;
   min-width: 256px;
   min-height: 256px;
   width: auto;
