@@ -41,7 +41,7 @@
       <section id="proyectos">
         <h1 class="titulo"> Proyectos </h1>
 
-        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe title="video" src="https://player.vimeo.com/video/690983567?h=c89b149b4b&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/690983567?h=c89b149b4b&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
 
         <p class="descripcionProyecto">
           <b> Trabajo Final de Proyecto Audiovisual I Cátedra Blanco </b> <br> <br>
@@ -54,13 +54,13 @@
           <b> Montaje:</b> Mariela Rodriguez <br> <br>
         </p>
 
-        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe title="video" src="https://player.vimeo.com/video/690983812?h=3293f13920&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/690983812?h=3293f13920&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
 
         <p class="descripcionProyecto">
           <b> Edición del reel de los trabajos actorales de Daniel Begino. </b> <br> <br>
         </p>
 
-        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe title="video" src="https://player.vimeo.com/video/690584333?h=4fb3c3b042&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/690584333?h=4fb3c3b042&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
 
         <p class="descripcionProyecto">
           <b> Trabajo de mitad de año de Proyecto Audiovisual I </b> <br> <br>
@@ -69,7 +69,7 @@
           <b> Montaje y edición de Sonido:</b> Naiara Veltri y Pascual Bustamante. <br> <br>
         </p>
 
-        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe title="video" src="https://player.vimeo.com/video/516059566?h=a431f82e3c&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/516059566?h=a431f82e3c&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
 
         <p class="descripcionProyecto">
           <b> Trabajo Final de Montaje I </b> <br> <br>
@@ -85,7 +85,7 @@
         <h1 class="titulo"> Fotos </h1>
 
         <div class="gridFotos">
-          <img v-for="foto in fotos" :src="foto.url" class="fotoSeccion" :class="foto.nombre" alt="imagen">
+          <img v-for="foto in fotos" :src="foto.url" class="fotoSeccion" :class="foto.nombre" alt="imagen" fetchpriority="low" sizes="(max-width: 400px)" loading="lazy" decoding="async">
         </div>
       </section>
 
@@ -104,15 +104,16 @@
 
 
 <script setup>
+
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 
-import img1 from './assets/fotos/foto1.jpg'
-import img2 from './assets/fotos/foto2.png'
-import img3 from './assets/fotos/foto3.jpg'
-import img4 from './assets/fotos/foto4.jpg'
-import img5 from './assets/fotos/foto5.jpg'
-import img6 from './assets/fotos/foto6.jpg'
+import img1 from './assets/fotos/foto1.webp'
+import img2 from './assets/fotos/foto2.webp'
+import img3 from './assets/fotos/foto3.webp'
+import img4 from './assets/fotos/foto4.webp'
+import img5 from './assets/fotos/foto5.webp'
+import img6 from './assets/fotos/foto6.webp'
 import SeccionContacto from './components/seccionContacto.vue'
 
 const fotos = 
