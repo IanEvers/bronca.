@@ -2,7 +2,7 @@
 
   <div>
 
-    <Header />
+    <Header class="headerDesktop" />
 
     <div>
     
@@ -10,23 +10,30 @@
         
         <div class="nombreYFoto">
           <div>
-            <h1> Catalina Rohde </h1>
+            <h1 class="heroTitulo"> Catalina Rohde </h1>
             <h2> Hace cine</h2>
+
+            <Header class="headerMobile" />
+
+            <p class="heroDescripcion">
+              En el transcurso de los dos años de carrera tuve la
+              oportunidad de realizar el montaje de un corto, tomar
+              el rol de cámara durante la pandemia desde mi casa en
+              otro y recientemente realice la producción de un corto
+              de cinco minutos como trabajo final de la materia
+              Proyecto Audiovisual I. Aparte de la facultad edito reels
+              para actores y videos de quince. 
+            </p>
           </div>
+
           <div class="flex-center">
-            <img src="./assets/cata.jpeg" alt="" class="imagenCata">
+            <img src="./assets/cata.png" alt="" class="imagenCata">
           </div>
         </div>
 
-        <p>
-          En el transcurso de los dos años de carrera tuve la
-          oportunidad de realizar el montaje de un corto, tomar
-          el rol de cámara durante la pandemia desde mi casa en
-          otro y recientemente realice la producción de un corto
-          de cinco minutos como trabajo final de la materia
-          Proyecto Audiovisual I. Aparte de la facultad edito reels
-          para actores y videos de quince. 
-        </p>
+
+
+      
       </section>
 
       <hr>
@@ -34,9 +41,41 @@
       <section id="proyectos">
         <h1 class="titulo"> Proyectos </h1>
 
+        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe src="https://player.vimeo.com/video/690983567?h=c89b149b4b&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+
+        <p class="descripcionProyecto">
+          <b> Trabajo Final de Proyecto Audiovisual I Cátedra Blanco </b> <br> <br>
+          <b> Dirección:</b> Lautaro Jimeno <br>
+          <b> Guion:</b> Felicitas Ledesma <br>
+          <b> Producción:</b> Catalina Rohde <br>
+          <b> Asistencia de Dirección:</b> Nina Constanzo <br>
+          <b> Cámara y Dirección de Fotografía:</b> Naiara Veltri <br>
+          <b> Sonido Directo, Diseño Sonoro y edicion de sonido:</b> Agustín Millauro <br>
+          <b> Montaje:</b> Mariela Rodriguez <br> <br>
+        </p>
+
+        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe src="https://player.vimeo.com/video/690983812?h=3293f13920&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+
+        <p class="descripcionProyecto">
+          <b> Edición del reel de los trabajos actorales de Daniel Begino. </b> <br> <br>
+        </p>
+
         <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe src="https://player.vimeo.com/video/690584333?h=4fb3c3b042&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
 
+        <p class="descripcionProyecto">
+          <b> Trabajo de mitad de año de Proyecto Audiovisual I </b> <br> <br>
+          <b> Idea:</b> Mariela Rodriguez, Naiara Veltri, Catalina Rohde y Pascual Bustamante <br>
+          <b> Dirección y Cámara:</b> Mariela Rodriguez y Catalina Rohde <br>
+          <b> Montaje y edición de Sonido:</b> Naiara Veltri y Pascual Bustamante. <br> <br>
+        </p>
+
         <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe src="https://player.vimeo.com/video/516059566?h=a431f82e3c&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+
+        <p class="descripcionProyecto">
+          <b> Trabajo Final de Montaje I </b> <br> <br>
+          <b> Dirección, Guión, Sonido, Cámaras, e Iluminación:</b> Alumnas/os de Montaje 2 Catedra Smukler <br>
+          <b> Montaje:</b> Catalina Rohde <br> <br>
+        </p>
       
       </section>
 
@@ -154,6 +193,10 @@ body {
   white-space: nowrap;
 } */
 
+.headerDesktop {
+  display: none;
+}
+
 section {
   min-height: 70vh;
   padding: 1rem;
@@ -162,6 +205,7 @@ section {
 }
 
 hr {
+  margin-top: 0;
   max-width: 80vw;
 }
 
@@ -169,14 +213,32 @@ hr {
   text-align: center;
 }
 
+.heroDescripcion {
+  padding-top: 2rem;
+}
+
+#home {
+  padding-bottom: 0;
+  min-height: 0;
+}
+
+.heroTitulo {
+  font-size: 5rem;
+  padding: 0;
+  margin-left: -5px;
+}
+
 .imagenCata {
-  margin: 1rem;
   max-width: 100vw;
 }
 
 p {
   font-size: 1.1rem;
   line-height: 1.4;
+}
+
+.descripcionProyecto {
+  white-space: pre-line;
 }
 
 h1 {
@@ -189,7 +251,6 @@ h2 {
   font-size: 1.5rem;
   font-weight: 200;
   margin: 0;
-  padding: 0.3rem;
 }
 
 #fotos {
@@ -211,24 +272,35 @@ h2 {
   margin: 3rem auto;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 915px) {
   .nombreYFoto {
     display: flex;
     justify-content: space-between;
   }
 
-  .imagenCata {
-    max-width: 256px;
-    margin: 0.5rem;
+  .headerDesktop {
+    display: block;
   }
 
-  section {
-    padding: 2rem;
+  .headerMobile {
+    display: none;
+  }
+
+  .imagenCata {
+    max-width: min(40vw, 500px);
+    max-height: 100vh;
+    width: auto;
+    height: auto;
   }
 
 }
 
 @media (min-width: 768px) {
+
+  section {
+    padding: 2rem;
+  }
+
   .gridFotos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

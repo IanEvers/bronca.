@@ -76,7 +76,7 @@ form {
 
 .hr {
   display: none;
-  border: #000000 1px solid;
+  border-left: #000000 1px solid;
   margin: 0 2rem;
 }
 
@@ -90,7 +90,7 @@ input {
   margin-bottom: 1rem;
   -webkit-box-shadow: none!important;
   box-shadow: none!important;
-  border: 3px solid #000000;
+  border: 1px solid #000000;
 }
 
 textarea {
@@ -102,7 +102,7 @@ textarea {
   border-radius: 5px;
   -webkit-box-shadow: none!important;
   box-shadow: none!important;
-  border: 3px solid #000000;
+  border: 1px solid #000000;
   padding-top: 1rem;
 }
 
