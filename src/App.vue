@@ -41,7 +41,7 @@
       <section id="proyectos">
         <h1 class="titulo"> Proyectos </h1>
 
-        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe src="https://player.vimeo.com/video/690983567?h=c89b149b4b&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe title="video" src="https://player.vimeo.com/video/690983567?h=c89b149b4b&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
 
         <p class="descripcionProyecto">
           <b> Trabajo Final de Proyecto Audiovisual I Cátedra Blanco </b> <br> <br>
@@ -54,13 +54,13 @@
           <b> Montaje:</b> Mariela Rodriguez <br> <br>
         </p>
 
-        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe src="https://player.vimeo.com/video/690983812?h=3293f13920&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe title="video" src="https://player.vimeo.com/video/690983812?h=3293f13920&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
 
         <p class="descripcionProyecto">
           <b> Edición del reel de los trabajos actorales de Daniel Begino. </b> <br> <br>
         </p>
 
-        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe src="https://player.vimeo.com/video/690584333?h=4fb3c3b042&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe title="video" src="https://player.vimeo.com/video/690584333?h=4fb3c3b042&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
 
         <p class="descripcionProyecto">
           <b> Trabajo de mitad de año de Proyecto Audiovisual I </b> <br> <br>
@@ -69,7 +69,7 @@
           <b> Montaje y edición de Sonido:</b> Naiara Veltri y Pascual Bustamante. <br> <br>
         </p>
 
-        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe src="https://player.vimeo.com/video/516059566?h=a431f82e3c&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe title="video" src="https://player.vimeo.com/video/516059566?h=a431f82e3c&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
 
         <p class="descripcionProyecto">
           <b> Trabajo Final de Montaje I </b> <br> <br>
@@ -85,7 +85,7 @@
         <h1 class="titulo"> Fotos </h1>
 
         <div class="gridFotos">
-          <img v-for="foto in fotos" :src="foto.url" class="fotoSeccion" :class="foto.nombre">
+          <img v-for="foto in fotos" :src="foto.url" class="fotoSeccion" :class="foto.nombre" alt="imagen">
         </div>
       </section>
 
@@ -206,7 +206,7 @@ section {
 
 hr {
   margin-top: 0;
-  max-width: 80vw;
+  max-width: 95vw;
 }
 
 .titulo {
@@ -291,6 +291,11 @@ h2 {
     max-height: 100vh;
     width: auto;
     height: auto;
+  }
+
+  hr {
+    margin-top: 0;
+    max-width: 80vw;
   }
 
 }
