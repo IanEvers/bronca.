@@ -41,41 +41,53 @@
       <section id="proyectos">
         <h1 class="titulo"> Proyectos </h1>
 
-        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/690983567?h=c89b149b4b&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+        <div class="descripcionYProyecto verde">
 
-        <p class="descripcionProyecto">
-          <b> Trabajo Final de Proyecto Audiovisual I Cátedra Blanco </b> <br> <br>
-          <b> Dirección:</b> Lautaro Jimeno <br>
-          <b> Guion:</b> Felicitas Ledesma <br>
-          <b> Producción:</b> Catalina Rohde <br>
-          <b> Asistencia de Dirección:</b> Nina Constanzo <br>
-          <b> Cámara y Dirección de Fotografía:</b> Naiara Veltri <br>
-          <b> Sonido Directo, Diseño Sonoro y edicion de sonido:</b> Agustín Millauro <br>
-          <b> Montaje:</b> Mariela Rodriguez <br> <br>
-        </p>
+          <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/690983567?h=c89b149b4b&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+          <p class="descripcionProyecto">
+            <b> Trabajo Final de Proyecto Audiovisual I Cátedra Blanco </b> <br> <br>
+            <b> Dirección:</b> Lautaro Jimeno <br>
+            <b> Guion:</b> Felicitas Ledesma <br>
+            <b> Producción:</b> Catalina Rohde <br>
+            <b> Asistencia de Dirección:</b> Nina Constanzo <br>
+            <b> Cámara y Dirección de Fotografía:</b> Naiara Veltri <br>
+            <b> Sonido Directo, Diseño Sonoro y edicion de sonido:</b> Agustín Millauro <br>
+            <b> Montaje:</b> Mariela Rodriguez <br> 
+          </p>
 
-        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/690983812?h=3293f13920&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+        </div>
 
-        <p class="descripcionProyecto">
-          <b> Edición del reel de los trabajos actorales de Daniel Begino. </b> <br> <br>
-        </p>
+        <div class="descripcionYProyecto rosa">
 
-        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/690584333?h=4fb3c3b042&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+          <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/690983812?h=3293f13920&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+          <p class="descripcionProyecto">
+            <b> Edición del reel de los trabajos actorales de Daniel Begino. </b> <br> 
+          </p>
 
-        <p class="descripcionProyecto">
-          <b> Trabajo de mitad de año de Proyecto Audiovisual I </b> <br> <br>
-          <b> Idea:</b> Mariela Rodriguez, Naiara Veltri, Catalina Rohde y Pascual Bustamante <br>
-          <b> Dirección y Cámara:</b> Mariela Rodriguez y Catalina Rohde <br>
-          <b> Montaje y edición de Sonido:</b> Naiara Veltri y Pascual Bustamante. <br> <br>
-        </p>
+        </div>
 
-        <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/516059566?h=a431f82e3c&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+        <div class="descripcionYProyecto verde">
+  
+          <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/690584333?h=4fb3c3b042&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+  
+          <p class="descripcionProyecto">
+            <b> Trabajo de mitad de año de Proyecto Audiovisual I </b> <br> <br>
+            <b> Idea:</b> Mariela Rodriguez, Naiara Veltri, Catalina Rohde y Pascual Bustamante <br>
+            <b> Dirección y Cámara:</b> Mariela Rodriguez y Catalina Rohde <br>
+            <b> Montaje y edición de Sonido:</b> Naiara Veltri y Pascual Bustamante. <br> 
+          </p>
+        </div>
 
-        <p class="descripcionProyecto">
-          <b> Trabajo Final de Montaje I </b> <br> <br>
-          <b> Dirección, Guión, Sonido, Cámaras, e Iluminación:</b> Alumnas/os de Montaje 2 Catedra Smukler <br>
-          <b> Montaje:</b> Catalina Rohde <br> <br>
-        </p>
+        <div class="descripcionYProyecto rosa ">
+          
+          <div style="padding:56.25% 0 0 0;position:relative;" class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/516059566?h=a431f82e3c&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+          <p class="descripcionProyecto">
+            <b> Trabajo Final de Montaje I </b> <br> <br>
+            <b> Dirección, Guión, Sonido, Cámaras, e Iluminación:</b> Alumnas/os de Montaje 2 Catedra Smukler <br>
+            <b> Montaje:</b> Catalina Rohde <br>
+          </p>
+        
+        </div>
       
       </section>
 
@@ -238,6 +250,20 @@ p {
   line-height: 1.4;
 }
 
+.descripcionYProyecto {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.verde {
+  background-color: #ece4df;
+}
+
+.rosa {
+  background-color: #efe8f1;
+}
+
 .descripcionProyecto {
   white-space: pre-line;
 }
@@ -270,7 +296,7 @@ h2 {
 }
 
 .videoSeccion {
-  margin: 3rem auto;
+  margin: auto;
 }
 
 @media (min-width: 915px) {
