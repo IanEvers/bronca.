@@ -15,28 +15,31 @@
 
             <Header class="headerMobile" />
 
-            <p class="heroDescripcion">
-              En el transcurso de los dos años de carrera tuve la
-              oportunidad de realizar el montaje de un corto, tomar
-              el rol de cámara durante la pandemia desde mi casa en
-              otro y recientemente realice la producción de un corto
-              de cinco minutos como trabajo final de la materia
-              Proyecto Audiovisual I. Aparte de la facultad edito reels
-              para actores y videos de quince. 
+            <p class="heroDescripcion desktop">
+              Soy Cata. Estudio Diseño de Imagen y Sonido en la UBA. 
+              Siempre me gusto el cine pero en un momento decidí que queria hacer una carrera de eso. Estudiando y aprendiendo me di cuenta de que el rodaje es el lugar donde quiero estar haciendo la producción o la asistencia de dirección. La edición que manejo y exploro dirariamente. 
+              Últimamente estuve buscando incursionar en el mundo de la fotografía de eventos como obras de teatro o recitales. 
+              Te invito a que veas los trabajos que hice y en los que participe, y si te gustan me tengas en cuenta para contactarme o compartir mi portfolio :) 
             </p>
+
           </div>
 
           <div class="flex-center">
             <img src="./assets/cata.png" alt="" class="imagenCata">
           </div>
+            <hr class="mobile">
         </div>
+        
+        <p class="heroDescripcion mobile">
+          Soy Cata. Estudio Diseño de Imagen y Sonido en la UBA. 
+          Siempre me gusto el cine pero en un momento decidí que queria hacer una carrera de eso. Estudiando y aprendiendo me di cuenta de que el rodaje es el lugar donde quiero estar haciendo la producción o la asistencia de dirección. La edición que manejo y exploro dirariamente. 
+          Últimamente estuve buscando incursionar en el mundo de la fotografía de eventos como obras de teatro o recitales. 
+          Te invito a que veas los trabajos que hice y en los que participe, y si te gustan me tengas en cuenta para contactarme o compartir mi portfolio :) 
+        </p>
 
-
-
-      
       </section>
 
-      <hr>
+      <hr class="">
 
       <section id="proyectos">
         <h1 class="titulo"> Proyectos </h1>
@@ -227,7 +230,15 @@ hr {
 }
 
 .heroDescripcion {
-  padding-top: 2rem;
+  padding: 1rem;
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
 }
 
 #home {
@@ -308,6 +319,21 @@ h2 {
   .headerDesktop {
     display: block;
   }
+
+  
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .heroDescripcion {
+    padding: 2rem 0 0 0;
+  }
+
+
 
   .headerMobile {
     display: none;
