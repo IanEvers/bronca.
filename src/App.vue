@@ -92,6 +92,24 @@
         
         </div>
       
+        <div class="descripcionYProyecto verde ">
+          
+          
+      
+          <div style="padding:100% 0 0 0;position:relative;"  class="videoSeccion"><iframe fetchpriority="low" title="video" src="https://player.vimeo.com/video/702977862?h=8692a68559&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+          <p class="descripcionProyecto">
+            
+
+
+            <b> p[ian]o. </b> <br> <br>
+            <b> Documental de 1 minuto para Proyecto Audiovisual II, Catedra Blanco </b> <br>
+            <b> Montaje:</b> Catalina Rohde <br>
+            <b> Realizado por: </b> Catalina Rohde <br>
+            <b> Protagonizado por: </b> Ian Evers
+          </p>
+        
+        </div>
+      
       </section>
 
       <hr>
@@ -332,8 +350,6 @@ h2 {
   .heroDescripcion {
     padding: 2rem 0 0 0;
   }
-
-
 
   .headerMobile {
     display: none;
