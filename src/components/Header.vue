@@ -27,6 +27,10 @@ header {
   border-bottom: #120a1f solid 1px;
   border-top: #120a1f solid 1px;
   margin-top: 2rem;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 nav {
