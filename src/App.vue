@@ -17,7 +17,7 @@
 
             <p class="heroDescripcion desktop">
               Soy Cata. Estudio Diseño de Imagen y Sonido en la UBA. 
-              Siempre me gusto el cine pero en un momento decidí que queria hacer una carrera de eso. Estudiando y aprendiendo me di cuenta de que el rodaje es el lugar donde quiero estar haciendo la producción o la asistencia de dirección. La edición que manejo y exploro dirariamente. 
+              Siempre me gusto el cine pero en un momento decidí que queria hacer una carrera de eso. Hice la rpducción de dos de mis cortos para la facultad y es un rol en el que me siento cómoda. La edición que manejo y exploro dirariamente. 
               Últimamente estuve buscando incursionar en el mundo de la fotografía de eventos como obras de teatro o recitales. 
               Te invito a que veas los trabajos que hice y en los que participe, y si te gustan me tengas en cuenta para contactarme o compartir mi portfolio :) 
             </p>
@@ -190,7 +190,8 @@ const fotos =
 }
 
 html {
-  scroll-behavior:smooth
+  scroll-behavior:smooth;
+  scroll-padding-top: 3.5rem;
 }
 
 body {
